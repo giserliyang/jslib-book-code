@@ -1,4 +1,3 @@
-
 // rollup.config.js
 // ES output
 var common = require('./rollup.js')
@@ -13,6 +12,6 @@ module.exports = {
     banner: common.banner,
   },
   plugins: [
-    // common.getCompiler()
+    common.getCompiler()
   ]
 }
